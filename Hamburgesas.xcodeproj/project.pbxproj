@@ -12,6 +12,7 @@
 		C0324CD41CA8E1900066027F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0324CD21CA8E1900066027F /* Main.storyboard */; };
 		C0324CD61CA8E1900066027F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0324CD51CA8E1900066027F /* Assets.xcassets */; };
 		C0324CD91CA8E1900066027F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0324CD71CA8E1900066027F /* LaunchScreen.storyboard */; };
+		C0324CE11CA8E1C80066027F /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0324CE01CA8E1C80066027F /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C0324CD51CA8E1900066027F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0324CD81CA8E1900066027F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0324CDA1CA8E1900066027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0324CE01CA8E1C80066027F /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				C0324CD51CA8E1900066027F /* Assets.xcassets */,
 				C0324CD71CA8E1900066027F /* LaunchScreen.storyboard */,
 				C0324CDA1CA8E1900066027F /* Info.plist */,
+				C04DD2FC1CAA3ED500679B78 /* Haburgesas */,
 			);
 			path = Hamburgesas;
+			sourceTree = "<group>";
+		};
+		C04DD2FC1CAA3ED500679B78 /* Haburgesas */ = {
+			isa = PBXGroup;
+			children = (
+				C0324CE01CA8E1C80066027F /* Datos.swift */,
+			);
+			name = Haburgesas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				C0324CD11CA8E1900066027F /* ViewController.swift in Sources */,
 				C0324CCF1CA8E1900066027F /* AppDelegate.swift in Sources */,
+				C0324CE11CA8E1C80066027F /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				C0324CDF1CA8E1900066027F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

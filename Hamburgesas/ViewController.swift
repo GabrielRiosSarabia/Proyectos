@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    let paises = ColeccionDePaises()
+    let hamburgesas = ColeccionDeHamburgesa()
+    let colores = Colores()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +26,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    @IBOutlet weak var seleccionaPais: UILabel!
+    
+    
+    @IBOutlet weak var seleccionaHamburgesa: UILabel!
+    
 
+    @IBAction func cambiaPais() {
+        
+        seleccionaPais.text = paises.obtenPais()
+        seleccionaHamburgesa.text = hamburgesas.obtenHamburgesa()
+        let colorAleatoreo = colores.obtieneColor()
+        view.backgroundColor = colorAleatoreo
+      
+        
+    }
 }
 
